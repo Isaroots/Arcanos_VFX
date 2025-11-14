@@ -41,6 +41,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6988505151427340094}
     m_Modifications:
+    - target: {fileID: 31521308543737224, guid: c1dbd0682b064d44fa7a4cb5725b6970, type: 3}
+      propertyPath: RotationModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 31521308543737224, guid: c1dbd0682b064d44fa7a4cb5725b6970, type: 3}
+      propertyPath: RotationModule.curve.scalar
+      value: 6.283185
+      objectReference: {fileID: 0}
+    - target: {fileID: 31521308543737224, guid: c1dbd0682b064d44fa7a4cb5725b6970, type: 3}
+      propertyPath: RotationModule.x.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 31521308543737224, guid: c1dbd0682b064d44fa7a4cb5725b6970, type: 3}
+      propertyPath: RotationModule.y.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 31521308543737224, guid: c1dbd0682b064d44fa7a4cb5725b6970, type: 3}
+      propertyPath: RotationModule.curve.minScalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 31521308543737224, guid: c1dbd0682b064d44fa7a4cb5725b6970, type: 3}
+      propertyPath: RotationModule.curve.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 31521308543737226, guid: c1dbd0682b064d44fa7a4cb5725b6970, type: 3}
       propertyPath: m_Name
       value: Rastro_M_Branco
@@ -106,6 +130,30 @@ PrefabInstance:
     - target: {fileID: 1752050065812990775, guid: 75017e7723b6f2e4abee2b179ffd66db, type: 3}
       propertyPath: m_Name
       value: "Fa\xEDsca_M_Branco"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1752050065812990921, guid: 75017e7723b6f2e4abee2b179ffd66db, type: 3}
+      propertyPath: RotationModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1752050065812990921, guid: 75017e7723b6f2e4abee2b179ffd66db, type: 3}
+      propertyPath: RotationModule.curve.scalar
+      value: 6.283185
+      objectReference: {fileID: 0}
+    - target: {fileID: 1752050065812990921, guid: 75017e7723b6f2e4abee2b179ffd66db, type: 3}
+      propertyPath: RotationModule.x.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1752050065812990921, guid: 75017e7723b6f2e4abee2b179ffd66db, type: 3}
+      propertyPath: RotationModule.y.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1752050065812990921, guid: 75017e7723b6f2e4abee2b179ffd66db, type: 3}
+      propertyPath: RotationModule.curve.minScalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1752050065812990921, guid: 75017e7723b6f2e4abee2b179ffd66db, type: 3}
+      propertyPath: RotationModule.curve.minMaxState
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1752050065812990922, guid: 75017e7723b6f2e4abee2b179ffd66db, type: 3}
       propertyPath: m_RootOrder
