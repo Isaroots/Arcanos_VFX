@@ -3,7 +3,17 @@ guid: cfb7b2e619630784fabc025559c2adef
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brilho
+    second: {fileID: 2100000, guid: 7554b6d735561d64a97b91b35d4ae1fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material1
+    second: {fileID: 2100000, guid: 7182f0db67b1f6243bd86e7eba772a24, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
