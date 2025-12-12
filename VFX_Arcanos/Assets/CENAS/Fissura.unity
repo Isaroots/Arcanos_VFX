@@ -307,7 +307,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &972964322
 Animator:
   serializedVersion: 5
@@ -485,7 +485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1380975964934292914, guid: e553ab201d2a1cf47a4b68c58bc66d08, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1380975964934292917, guid: e553ab201d2a1cf47a4b68c58bc66d08, type: 3}
       propertyPath: m_RootOrder
@@ -658,18 +658,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7252201694959769344, guid: 06602339cd567cf419542d32cff19cac, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.047
-      objectReference: {fileID: 0}
-    - target: {fileID: 7252201694959769347, guid: 06602339cd567cf419542d32cff19cac, type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 7252201694959769347, guid: 06602339cd567cf419542d32cff19cac, type: 3}
-      propertyPath: InitialModule.startLifetime.minScalar
-      value: 0.8
-      objectReference: {fileID: 0}
     - target: {fileID: 7252201695378684656, guid: 06602339cd567cf419542d32cff19cac, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -714,21 +702,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7252201695378684659, guid: 06602339cd567cf419542d32cff19cac, type: 3}
-      propertyPath: ShapeModule.radius.value
-      value: 0.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 7252201695378684659, guid: 06602339cd567cf419542d32cff19cac, type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 250
-      objectReference: {fileID: 0}
     - target: {fileID: 7252201695378684669, guid: 06602339cd567cf419542d32cff19cac, type: 3}
       propertyPath: m_Name
-      value: Sumindo (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7252201695378684669, guid: 06602339cd567cf419542d32cff19cac, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      value: Sumindo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06602339cd567cf419542d32cff19cac, type: 3}
@@ -950,18 +926,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 972964323}
     m_Modifications:
-    - target: {fileID: 7252201694959769344, guid: 06602339cd567cf419542d32cff19cac, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.047
-      objectReference: {fileID: 0}
-    - target: {fileID: 7252201694959769347, guid: 06602339cd567cf419542d32cff19cac, type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 7252201694959769347, guid: 06602339cd567cf419542d32cff19cac, type: 3}
-      propertyPath: InitialModule.startLifetime.minScalar
-      value: 0.8
-      objectReference: {fileID: 0}
     - target: {fileID: 7252201695378684656, guid: 06602339cd567cf419542d32cff19cac, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1006,21 +970,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7252201695378684659, guid: 06602339cd567cf419542d32cff19cac, type: 3}
-      propertyPath: ShapeModule.radius.value
-      value: 0.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 7252201695378684659, guid: 06602339cd567cf419542d32cff19cac, type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 250
-      objectReference: {fileID: 0}
     - target: {fileID: 7252201695378684669, guid: 06602339cd567cf419542d32cff19cac, type: 3}
       propertyPath: m_Name
       value: Sumindo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7252201695378684669, guid: 06602339cd567cf419542d32cff19cac, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06602339cd567cf419542d32cff19cac, type: 3}
