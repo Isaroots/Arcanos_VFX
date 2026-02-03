@@ -10216,7 +10216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226348373}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -2.7139683, y: 0.19088137, z: 3.4920435}
+  m_LocalPosition: {x: -2.713968, y: 0.1908814, z: 3.4920435}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15670,7 +15670,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555052834}
   m_LocalRotation: {x: 0.32551455, y: 0.5296688, z: -0.23030655, w: 0.7486322}
-  m_LocalPosition: {x: 2.7, y: 5.6, z: -12.7}
+  m_LocalPosition: {x: 5.4, y: 2.94, z: -11.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41078,6 +41078,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1497112709}
+  - component: {fileID: 1497112710}
   m_Layer: 0
   m_Name: "EX Magia Jato D'\xE1gua"
   m_TagString: Untagged
@@ -41103,6 +41104,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1497112710
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497112708}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 47ea4530404fa0748b841a6c5d4cf975, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1538718291
 GameObject:
   m_ObjectHideFlags: 0
@@ -41283,7 +41304,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599024755}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -2.7139683, y: 0.19088113, z: 3.4020438}
+  m_LocalPosition: {x: -2.713968, y: 0.191, z: 3.494}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
