@@ -32,7 +32,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TESTE
+  m_Name: "EX Onda D'\xE1gua"
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
