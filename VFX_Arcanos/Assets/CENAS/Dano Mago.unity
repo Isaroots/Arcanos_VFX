@@ -533,7 +533,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -871,6 +871,7 @@ GameObject:
   - component: {fileID: 357965660}
   - component: {fileID: 357965659}
   - component: {fileID: 357965658}
+  - component: {fileID: 357965661}
   m_Layer: 0
   m_Name: Mestre-Magos (EX M VERDE)
   m_TagString: Untagged
@@ -930,6 +931,19 @@ Transform:
   m_Father: {fileID: 664532582}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &357965661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357965657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bbf9732c30f95c488c99911914fc547, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _switch: 1
 --- !u!1 &368680129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,6 +1249,7 @@ GameObject:
   - component: {fileID: 538392826}
   - component: {fileID: 538392825}
   - component: {fileID: 538392824}
+  - component: {fileID: 538392827}
   m_Layer: 0
   m_Name: Mestre-Magos (EX M VERMELHO)
   m_TagString: Untagged
@@ -1294,6 +1309,19 @@ Transform:
   m_Father: {fileID: 664532582}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &538392827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538392823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bbf9732c30f95c488c99911914fc547, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _switch: 1
 --- !u!1 &539504734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,7 +1724,7 @@ Transform:
   - {fileID: 905248336}
   - {fileID: 538392826}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &673493993
 GameObject:
@@ -2112,6 +2140,7 @@ GameObject:
   - component: {fileID: 905248336}
   - component: {fileID: 905248335}
   - component: {fileID: 905248334}
+  - component: {fileID: 905248337}
   m_Layer: 0
   m_Name: Mestre-Magos (EX M AMARELO)
   m_TagString: Untagged
@@ -2171,6 +2200,19 @@ Transform:
   m_Father: {fileID: 664532582}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &905248337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905248333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bbf9732c30f95c488c99911914fc547, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _switch: 1
 --- !u!1 &937556055
 GameObject:
   m_ObjectHideFlags: 0
@@ -3708,6 +3750,55 @@ Transform:
   - {fileID: 683342950576256438}
   - {fileID: 3140953703044814475}
   m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1670437671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1670437673}
+  - component: {fileID: 1670437672}
+  m_Layer: 0
+  m_Name: Post Processing Global
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1670437672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670437671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 45fd8b7f55f757144bfe04a84a91924a, type: 2}
+--- !u!4 &1670437673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670437671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.634165, y: -0.47256815, z: -11.904753}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1672725460
@@ -4600,6 +4691,7 @@ GameObject:
   - component: {fileID: 543450653356027692}
   - component: {fileID: 623592159}
   - component: {fileID: 623592160}
+  - component: {fileID: 919132149365159319}
   m_Layer: 0
   m_Name: Mestre-Magos (EX M AZUL)
   m_TagString: Untagged
@@ -4607,6 +4699,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &919132149365159319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149365159318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bbf9732c30f95c488c99911914fc547, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _switch: 1
 --- !u!1001 &934553785460336387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4826,7 +4931,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1325349029149482962
 Transform:
   m_ObjectHideFlags: 0
@@ -54135,7 +54240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3715382106915235318
 Transform:
   m_ObjectHideFlags: 0
@@ -102926,7 +103031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4631754340998575697
 Transform:
   m_ObjectHideFlags: 0
@@ -137436,7 +137541,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7138299015935231746
 Transform:
   m_ObjectHideFlags: 0
